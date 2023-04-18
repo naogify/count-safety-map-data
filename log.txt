@@ -1,0 +1,23 @@
+https://opendata.takamatsu-fact.com/evacuation_space/data.geojson
+読み込んだFeature数: 193
+https://opendata.takamatsu-fact.com/clinic/data.geojson
+読み込んだFeature数: 2
+https://opendata.takamatsu-fact.com/hospital/data.geojson
+読み込んだFeature数: 635
+https://opendata.takamatsu-fact.com/municipal_hospital/data.geojson
+読み込んだFeature数: 3
+https://opendata.takamatsu-fact.com/fire_brigade/data.geojson
+読み込んだFeature数: 96
+https://opendata.takamatsu-fact.com/fire_station/data.geojson
+読み込んだFeature数: 13
+https://opendata.takamatsu-fact.com/aed_location/data.geojson
+読み込んだFeature数: 514
+cityos-kawaga-takamatsu-WaterLevel
+読み込んだFeature数: 17
+cityos-kawaga-takamatsu-PrefectureWaterLevel
+読み込んだFeature数: 20
+cityos-kawaga-takamatsu-FloodSituation
+読み込んだFeature数: 18
+https://safetymap.takamatsu-fact.com/baseroute/chikadou_custom_point.geojson
+読み込んだFeature数: 39
+合計のFeature数: 1550

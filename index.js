@@ -13,8 +13,11 @@ async function loadFeatures() {
 
     if (item.type === "fiware") {
       const featuresByCategory = await fetchFiwareData(sources);
-
+      
       for (const [key, value] of Object.entries(featuresByCategory)) {
+        
+        console.log(key)
+        console.log(`読み込んだFeature数: ${ value.length }`);
 
         for (let j = 0; j < value.length; j++) {
           const feature = value[j];
@@ -34,6 +37,9 @@ async function loadFeatures() {
   
         const response = await fetch(url);
         const data = await response.json();
+
+        console.log(url)
+        console.log(`読み込んだFeature数: ${ data.features.length }`); // features配列の長さを出力
   
         if (data.type === "FeatureCollection") {
           const geojsonFeatures = data.features;
