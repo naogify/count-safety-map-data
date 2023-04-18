@@ -1,0 +1,85 @@
+{
+  "title": "たかまつマイセーフティマップ",
+  "description": "たかまつマイセーフティマップ",
+  "hosting_url": "https://safetymap.takamatsu-fact.com",
+  "data_url": null,
+  "form_url": null,
+  "logo_image_url": "https://safetymap.takamatsu-fact.com/logo.svg",
+  "background_image_url": "http://localhost:3000/background.jpg",
+  "primary_color": "#EDEDED",
+  "data": [
+    {
+      "id": "shelter",
+      "title": "避難所",
+      "sources": [
+        "https://opendata.takamatsu-fact.com/evacuation_space/data.geojson"
+      ],
+      "icon": "./icons/shelter.svg",
+      "color": "#00A560",
+      "inPopup": true
+    },
+    {
+      "id": "hospital",
+      "title": "病院",
+      "sources": [
+        "https://opendata.takamatsu-fact.com/clinic/data.geojson",
+        "https://opendata.takamatsu-fact.com/hospital/data.geojson",
+        "https://opendata.takamatsu-fact.com/municipal_hospital/data.geojson"
+      ],
+      "icon": "./icons/hospital.svg",
+      "color": "#455DB7",
+      "inPopup": true
+    },
+    {
+      "id": "fire-station",
+      "title": "消防署",
+      "sources": [
+        "https://opendata.takamatsu-fact.com/fire_brigade/data.geojson",
+        "https://opendata.takamatsu-fact.com/fire_station/data.geojson"
+      ],
+      "icon": "./icons/fire-station.svg",
+      "color": "#FF0000",
+      "inPopup": true
+    },
+    {
+      "id": "aed",
+      "title": "AED設置場所",
+      "sources": [
+        "https://opendata.takamatsu-fact.com/aed_location/data.geojson"
+      ],
+      "icon": "./icons/aed.svg",
+      "color": "#A50000",
+      "inPopup": true
+    },
+    {
+      "id": "WaterLevel",
+      "title": "水位",
+      "sources": [
+        "WaterLevel",
+        "PrefectureWaterLevel"
+      ],
+      "icon": "./icons/waterLevel.svg",
+      "color": "#008FDF",
+      "type": "fiware"
+    },
+    {
+      "id": "FloodSituation",
+      "title": "冠水状況",
+      "sources": [
+        "FloodSituation"
+      ],
+      "icon": "./icons/floodSituation.svg",
+      "color": "#FFF000",
+      "type": "fiware"
+    },
+    {
+      "id": "chikadou_custom_point",
+      "title": "冠水状況",
+      "sources": [
+        "./baseroute/chikadou_custom_point.geojson"
+      ],
+      "icon": "./icons/floodSituation.svg",
+      "color": "#FFF000"
+    }
+  ]
+}

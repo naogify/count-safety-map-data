@@ -1,0 +1,22 @@
+{
+  "name": "count-safety-map-data",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naogify/count-safety-map-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naogify/count-safety-map-data/issues"
+  },
+  "homepage": "https://github.com/naogify/count-safety-map-data#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.9"
+  }
+}
