@@ -29,6 +29,7 @@ async function loadFeatures() {
       }
     }
   }
+  
   console.log(`合計のFeature数: ${ features.length }`); // features配列の長さを出力
 }
 
