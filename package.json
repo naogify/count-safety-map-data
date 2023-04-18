@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/naogify/count-safety-map-data#readme",
   "dependencies": {
-    "node-fetch": "^2.6.9"
+    "node-fetch": "^2.6.9",
+    "undici": "^5.21.2"
   }
 }

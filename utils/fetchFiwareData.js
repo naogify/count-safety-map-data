@@ -1,15 +1,6 @@
 const { fetch } = require('undici');
 const fiwareToGeojson = require('./fiwareToGeojson');
 
-const DATA_CATEGORIES = [
-  'FloodSituation',
-  'Rainfall',
-  'WaterLevel',
-  'PrefectureWaterLevel',
-  'TideLevel',
-  'PrefectureTideLevel',
-];
-
 const baseURL = 'https://pf.smartcity-takamatsu.jp/orion/v2.0/entities'
 const tokenUrl = 'https://pf.smartcity-takamatsu.jp/wso2am/oauth2/token';
 
@@ -22,7 +13,7 @@ const tokenHeaders = {
 };
 const tokenBody = 'grant_type=client_credentials';
 
-const fetchFiwareData = async () => {
+const fetchFiwareData = async (DATA_CATEGORIES) => {
 
   let featuresByCategory = {}
 
